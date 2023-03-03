@@ -4,11 +4,15 @@
 
 body {
   font-size: 22px;
+  font-family: 'Climate Crisis', cursive;
   line-height: 1.5;
   font-family: Helvetica, sans-serif;
   color: #111;
   margin: 0;
   padding: 20px 40px;
+  background: rgb(209,255,0);
+  background: radial-gradient(circle, rgba(209,255,0,1) 1%, rgba(182,255,223,1) 49%, rgba(61,75,98,1) 99%);
+ 
 
   /* This will center anything on your page */
   display: flex;
@@ -17,15 +21,17 @@ body {
   min-height: 100vh;
 }
 
-.clock {
-  display: flex;
-  gap: 20px;
-  padding: 20px 30px;
+
+#clock {
+  font-size: 100px;
+  width: 1000px;
+  margin: 200px;
+  font-family: 'Climate Crisis', cursive;
   text-align: center;
-  border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
-.time {
-  
+#id{
+  color: #111;
+  align-content: center;
 }
